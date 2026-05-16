@@ -1,6 +1,6 @@
 <div align="center">
 
-# Free Advanced QR Generator
+# ✨ Free Advanced QR Generator
 
 **Feature-rich, free, open-source desktop QR code generator — built with Python & PyQt6.**
 
@@ -12,7 +12,7 @@
 
 ---
 
-## Quick Start
+## 🚀 Quick Start
 
 **Option A — Windows EXE (no Python needed)**
 
@@ -33,26 +33,26 @@ Or double-click `Run QR Generator.bat` (requires Python 3.11+ in PATH).
 
 ---
 
-## Features
+## ✨ Features
 
 | Feature | Details |
 |:---|:---|
-| **8 content types** | Plain Text, URL, Phone, Email, SMS, Contact (vCard), Multi URL, PDF |
-| **Live preview** | QR updates automatically as you type |
-| **Custom colors** | QR color, background color, finder / eye color — with live swatches |
-| **Transparent background** | Generate QR codes with no background |
-| **Gradient overlays** | Apply linear gradients to QR modules or background |
-| **Logo / watermark** | Embed any image at the center with optional elliptical border |
-| **Module styles** | Square (crisp) or Dot (rounded PIL rendering) |
-| **Error correction** | L / M / Q / H levels |
-| **Version control** | Manual selection (1–40); auto-bumps when data is too large |
-| **Output sizes** | 128 × 128 up to 4096 × 4096 px |
-| **Export** | Save as PNG · Copy to clipboard · Export as SVG |
-| **Dark modern UI** | Clean landscape layout with grouped controls |
+| 📝 **8 content types** | Plain Text, URL, Phone, Email, SMS, Contact (vCard), Multi URL, PDF |
+| 👁️ **Live preview** | QR updates automatically as you type |
+| 🎨 **Custom colors** | QR color, background color, finder / eye color — with live swatches |
+| 🌫️ **Transparent background** | Generate QR codes with no background |
+| 🌈 **Gradient overlays** | Apply linear gradients to QR modules or background |
+| 🖼️ **Logo / watermark** | Embed any image at the center with optional elliptical border |
+| ⬛ **Module styles** | Square (crisp) or Dot (rounded PIL rendering) |
+| 🛡️ **Error correction** | L / M / Q / H levels |
+| 🔢 **Version control** | Manual selection (1–40); auto-bumps when data is too large |
+| 📐 **Output sizes** | 128 × 128 up to 4096 × 4096 px |
+| 💾 **Export** | Save as PNG · Copy to clipboard · Export as SVG |
+| 🌙 **Dark modern UI** | Clean landscape layout with grouped controls |
 
 ---
 
-## Requirements (source only)
+## 📦 Requirements (source only)
 
 - Python 3.11+
 - PyQt6 ≥ 6.4
@@ -65,7 +65,7 @@ pip install -r requirements.txt
 
 ---
 
-## Project Structure
+## 🗂️ Project Structure
 
 ```
 FreeAdvancedQrGenerator/
@@ -79,7 +79,7 @@ FreeAdvancedQrGenerator/
 
 ---
 
-## License
+## 📄 License
 
 MIT — free to use, modify, and distribute.
 
