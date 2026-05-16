@@ -9,6 +9,7 @@ env/
 *.egg-info/
 dist/
 build/
+*.spec
 .DS_Store
 Thumbs.db
 *.log

@@ -1,59 +1,79 @@
 # Free Advanced QR Generator
 
-A feature-rich desktop QR code generator built with Python + PyQt6. Generate, style, and export QR codes for any use case — completely free and open source.
+> A feature-rich, free and open-source desktop QR code generator — built with Python & PyQt6.
 
-![Dark modern UI with QR preview](screenshot.png)
-
----
-
-## Features
-
-- **8 content types** — Plain Text, URL, Phone, Email, SMS, Contact (vCard), Multi URL, PDF
-- **Live preview** — QR updates automatically as you type
-- **Custom colors** — Foreground, background, and finder/eye colors with swatch buttons
-- **Transparent background** support
-- **Gradient overlays** — Apply linear gradients to the QR or background
-- **Logo / watermark** — Embed any image at the center with optional elliptical border
-- **Multiple module styles** — Square, dots (PIL), and all styles available in segno
-- **Error correction levels** — L / M / Q / H
-- **Version control** — Manual version selection (1–40), auto-bumps when data is too large
-- **Output sizes** — 128 × 128 up to 4096 × 4096 px
-- **Export** — Save as PNG, copy to clipboard, or export as SVG
-- **Dark modern UI** — Clean landscape layout with grouped controls
+[![Latest Release](https://img.shields.io/github/v/release/Sdomit/free-advanced-qr-generator?label=Download&style=for-the-badge&logo=windows&color=bd93f9)](https://github.com/Sdomit/free-advanced-qr-generator/releases/latest)
+[![License: MIT](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.11%2B-blue?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 
 ---
 
-## Requirements
+## ⚡ Quick Start (Windows)
 
-- Python 3.11+
-- [PyQt6](https://pypi.org/project/PyQt6/)
-- [segno](https://pypi.org/project/segno/)
-- [Pillow](https://pypi.org/project/Pillow/)
+### Option A — Run the EXE (no Python needed)
+1. Go to the [**Releases**](https://github.com/Sdomit/free-advanced-qr-generator/releases/latest) page
+2. Download **`Free Advanced QR Generator.exe`**
+3. Double-click to run — no installation required
 
----
-
-## Installation
-
+### Option B — Run from source
 ```bash
 git clone https://github.com/Sdomit/free-advanced-qr-generator.git
 cd free-advanced-qr-generator
 pip install -r requirements.txt
 python main.py
 ```
+Or simply double-click **`Run QR Generator.bat`** (requires Python 3.11+ in PATH).
 
 ---
 
-## Usage
+## ✨ Features
 
-1. Select a **content type** from the dropdown
-2. Enter your data in the input field(s)
-3. Adjust appearance settings (colors, style, gradient, logo, margins)
-4. The QR code updates automatically — click the preview to enlarge it
-5. Use **Save PNG**, **Copy to Clipboard**, or **Export SVG** to get your QR
+| Feature | Details |
+|--------|---------|
+| **8 content types** | Plain Text, URL, Phone, Email, SMS, Contact (vCard), Multi URL, PDF |
+| **Live preview** | QR updates automatically as you type |
+| **Custom colors** | QR color, background color, finder/eye color — all with live swatches |
+| **Transparent background** | Generate QR codes with no background |
+| **Gradient overlays** | Apply linear gradients to the QR modules or background |
+| **Logo / watermark** | Embed any image at the center with optional elliptical border |
+| **Module styles** | Square (crisp) or Dot (rounded PIL rendering) |
+| **Error correction** | L / M / Q / H levels |
+| **Version control** | Manual selection (1–40), auto-bumps when data is too large |
+| **Output sizes** | 128 × 128 up to 4096 × 4096 px |
+| **Export** | Save as PNG · Copy to clipboard · Export as SVG |
+| **Dark modern UI** | Clean landscape layout with grouped controls |
 
 ---
 
-## License
+## 🖥️ Requirements (source only)
+
+- Python 3.11+
+- PyQt6 ≥ 6.4
+- segno ≥ 1.6
+- Pillow ≥ 10.0
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 📁 Project Structure
+
+```
+free-advanced-qr-generator/
+├── main.py                  # Entry point
+├── qr_generator.py          # UI + generation logic
+├── qr_logo_utils.py         # Logo overlay with border
+├── qr_gradient_utils.py     # Linear gradient rendering
+├── Run QR Generator.bat     # One-click launcher (Windows)
+├── requirements.txt
+└── README.md
+```
+
+---
+
+## 📄 License
 
 MIT — free to use, modify, and distribute.
 
